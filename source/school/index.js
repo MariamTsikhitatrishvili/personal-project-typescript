@@ -1,0 +1,17 @@
+"use strict";
+exports.__esModule = true;
+exports.GradeBooksModel = exports.GroupsModel = exports.PupilsModel = exports.Validator = exports.TeachersModel = exports.LMSModel = exports.SubjectsModel = void 0;
+var subjectsmodel_1 = require("./subjectsmodel");
+exports.SubjectsModel = subjectsmodel_1.SubjectsModel;
+var lmsmodel_1 = require("./lmsmodel");
+exports.LMSModel = lmsmodel_1.LMSModel;
+var validator_1 = require("./validator");
+exports.Validator = validator_1.Validator;
+var teachersmodel_1 = require("./teachersmodel");
+exports.TeachersModel = teachersmodel_1.TeachersModel;
+var pupilsmodel_1 = require("./pupilsmodel");
+exports.PupilsModel = pupilsmodel_1.PupilsModel;
+var groupsmodel_1 = require("./groupsmodel");
+exports.GroupsModel = groupsmodel_1.GroupsModel;
+var gradebooksmodel_1 = require("./gradebooksmodel");
+exports.GradeBooksModel = gradebooksmodel_1.GradeBooksModel;
